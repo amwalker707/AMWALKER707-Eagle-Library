@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eagle version="9.0.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="2010_RK73H" urn="urn:adsk.eagle:footprint:2906868/2">
+<description>CHIP, 5 X 2.5 X 0.7 mm body
+&lt;p&gt;CHIP package with body size 5 X 2.5 X 0.7 mm&lt;/p&gt;</description>
+<wire x1="2.6" y1="1.6717" x2="-2.6" y2="1.6717" width="0.12" layer="21"/>
+<wire x1="2.6" y1="-1.6717" x2="-2.6" y2="-1.6717" width="0.12" layer="21"/>
+<wire x1="2.6" y1="-1.35" x2="-2.6" y2="-1.35" width="0.12" layer="51"/>
+<wire x1="-2.6" y1="-1.35" x2="-2.6" y2="1.35" width="0.12" layer="51"/>
+<wire x1="-2.6" y1="1.35" x2="2.6" y2="1.35" width="0.12" layer="51"/>
+<wire x1="2.6" y1="1.35" x2="2.6" y2="-1.35" width="0.12" layer="51"/>
+<smd name="1" x="-2.3599" y="0" dx="1.1955" dy="2.7153" layer="1" thermals="no"/>
+<smd name="2" x="2.3599" y="0" dx="1.1955" dy="2.7153" layer="1" thermals="no"/>
+<text x="0" y="2.3067" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.3067" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="0603_RK73H" urn="urn:adsk.eagle:footprint:2906834/2">
+<description>CHIP, 1.6 X 0.8 X 0.45 mm body
+&lt;p&gt;CHIP package with body size 1.6 X 0.8 X 0.45 mm&lt;/p&gt;</description>
+<wire x1="0.9" y1="0.7786" x2="-0.9" y2="0.7786" width="0.12" layer="21"/>
+<wire x1="0.9" y1="-0.7786" x2="-0.9" y2="-0.7786" width="0.12" layer="21"/>
+<wire x1="0.9" y1="-0.45" x2="-0.9" y2="-0.45" width="0.12" layer="51"/>
+<wire x1="-0.9" y1="-0.45" x2="-0.9" y2="0.45" width="0.12" layer="51"/>
+<wire x1="-0.9" y1="0.45" x2="0.9" y2="0.45" width="0.12" layer="51"/>
+<wire x1="0.9" y1="0.45" x2="0.9" y2="-0.45" width="0.12" layer="51"/>
+<smd name="1" x="-0.8144" y="0" dx="0.8864" dy="0.9291" layer="1" thermals="no"/>
+<smd name="2" x="0.8144" y="0" dx="0.8864" dy="0.9291" layer="1" thermals="no"/>
+<text x="0" y="1.4136" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4136" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="2512_RK73H" urn="urn:adsk.eagle:footprint:2906873/2">
+<description>CHIP, 6.3 X 3.1 X 0.7 mm body
+&lt;p&gt;CHIP package with body size 6.3 X 3.1 X 0.7 mm&lt;/p&gt;</description>
+<wire x1="3.25" y1="1.9717" x2="-3.25" y2="1.9717" width="0.12" layer="21"/>
+<wire x1="3.25" y1="-1.9717" x2="-3.25" y2="-1.9717" width="0.12" layer="21"/>
+<wire x1="3.25" y1="-1.65" x2="-3.25" y2="-1.65" width="0.12" layer="51"/>
+<wire x1="-3.25" y1="-1.65" x2="-3.25" y2="1.65" width="0.12" layer="51"/>
+<wire x1="-3.25" y1="1.65" x2="3.25" y2="1.65" width="0.12" layer="51"/>
+<wire x1="3.25" y1="1.65" x2="3.25" y2="-1.65" width="0.12" layer="51"/>
+<smd name="1" x="-3.0099" y="0" dx="1.1955" dy="3.3153" layer="1" thermals="no"/>
+<smd name="2" x="3.0099" y="0" dx="1.1955" dy="3.3153" layer="1" thermals="no"/>
+<text x="0" y="2.6067" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.6067" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="0402_RK73H" urn="urn:adsk.eagle:footprint:2906837/2">
+<description>CHIP, 1.025 X 0.5 X 0.4 mm body
+&lt;p&gt;CHIP package with body size 1.025 X 0.5 X 0.4 mm&lt;/p&gt;</description>
+<wire x1="0.55" y1="0.614" x2="-0.55" y2="0.614" width="0.12" layer="21"/>
+<wire x1="0.55" y1="-0.614" x2="-0.55" y2="-0.614" width="0.12" layer="21"/>
+<wire x1="0.55" y1="-0.275" x2="-0.55" y2="-0.275" width="0.12" layer="51"/>
+<wire x1="-0.55" y1="-0.275" x2="-0.55" y2="0.275" width="0.12" layer="51"/>
+<wire x1="-0.55" y1="0.275" x2="0.55" y2="0.275" width="0.12" layer="51"/>
+<wire x1="0.55" y1="0.275" x2="0.55" y2="-0.275" width="0.12" layer="51"/>
+<smd name="1" x="-0.4958" y="0" dx="0.5456" dy="0.6" layer="1" thermals="no"/>
+<smd name="2" x="0.4958" y="0" dx="0.5456" dy="0.6" layer="1" thermals="no"/>
+<text x="0" y="1.249" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.249" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="1210_RK73H" urn="urn:adsk.eagle:footprint:2906848/2">
+<description>CHIP, 3.2 X 2.6 X 0.7 mm body
+&lt;p&gt;CHIP package with body size 3.2 X 2.6 X 0.7 mm&lt;/p&gt;</description>
+<wire x1="1.7" y1="1.7217" x2="-1.7" y2="1.7217" width="0.12" layer="21"/>
+<wire x1="1.7" y1="-1.7217" x2="-1.7" y2="-1.7217" width="0.12" layer="21"/>
+<wire x1="1.7" y1="-1.4" x2="-1.7" y2="-1.4" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="-1.4" x2="-1.7" y2="1.4" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="1.4" x2="1.7" y2="1.4" width="0.12" layer="51"/>
+<wire x1="1.7" y1="1.4" x2="1.7" y2="-1.4" width="0.12" layer="51"/>
+<smd name="1" x="-1.4599" y="0" dx="1.1955" dy="2.8153" layer="1" thermals="no"/>
+<smd name="2" x="1.4599" y="0" dx="1.1955" dy="2.8153" layer="1" thermals="no"/>
+<text x="0" y="2.3567" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.3567" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="0805_RK73H" urn="urn:adsk.eagle:footprint:2906841/2">
+<description>CHIP, 2 X 1.25 X 0.6 mm body
+&lt;p&gt;CHIP package with body size 2 X 1.25 X 0.6 mm&lt;/p&gt;</description>
+<wire x1="1.1" y1="1.0036" x2="-1.1" y2="1.0036" width="0.12" layer="21"/>
+<wire x1="1.1" y1="-1.0036" x2="-1.1" y2="-1.0036" width="0.12" layer="21"/>
+<wire x1="1.1" y1="-0.675" x2="-1.1" y2="-0.675" width="0.12" layer="51"/>
+<wire x1="-1.1" y1="-0.675" x2="-1.1" y2="0.675" width="0.12" layer="51"/>
+<wire x1="-1.1" y1="0.675" x2="1.1" y2="0.675" width="0.12" layer="51"/>
+<wire x1="1.1" y1="0.675" x2="1.1" y2="-0.675" width="0.12" layer="51"/>
+<smd name="1" x="-0.94" y="0" dx="1.0354" dy="1.3791" layer="1" thermals="no"/>
+<smd name="2" x="0.94" y="0" dx="1.0354" dy="1.3791" layer="1" thermals="no"/>
+<text x="0" y="1.6386" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.6386" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="1206_RK73H" urn="urn:adsk.eagle:footprint:2906845/2">
+<description>CHIP, 3.2 X 1.6 X 0.7 mm body
+&lt;p&gt;CHIP package with body size 3.2 X 1.6 X 0.7 mm&lt;/p&gt;</description>
+<wire x1="1.7" y1="1.2217" x2="-1.7" y2="1.2217" width="0.12" layer="21"/>
+<wire x1="1.7" y1="-1.2217" x2="-1.7" y2="-1.2217" width="0.12" layer="21"/>
+<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.12" layer="51"/>
+<wire x1="1.7" y1="0.9" x2="1.7" y2="-0.9" width="0.12" layer="51"/>
+<smd name="1" x="-1.4599" y="0" dx="1.1955" dy="1.8153" layer="1" thermals="no"/>
+<smd name="2" x="1.4599" y="0" dx="1.1955" dy="1.8153" layer="1" thermals="no"/>
+<text x="0" y="1.8567" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.8567" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="80_TQFP_MAXIM" urn="urn:adsk.eagle:footprint:2906743/2">
+<description>80-QFP, 0.5 mm pitch, 14 mm span, 12 X 12 X 1.2 mm body
+&lt;p&gt;80-pin QFP package with 0.5 mm pitch, 14 mm lead span1 X 14 mm lead span2 with body size 12 X 12 X 1.2 mm&lt;/p&gt;</description>
+<circle x="-6.7788" y="5.219" radius="0.075" width="0" layer="21"/>
+<wire x1="-6.1" y1="5.144" x2="-6.1" y2="6.1" width="0.12" layer="21"/>
+<wire x1="-6.1" y1="6.1" x2="-5.144" y2="6.1" width="0.12" layer="21"/>
+<wire x1="6.1" y1="5.144" x2="6.1" y2="6.1" width="0.12" layer="21"/>
+<wire x1="6.1" y1="6.1" x2="5.144" y2="6.1" width="0.12" layer="21"/>
+<wire x1="6.1" y1="-5.144" x2="6.1" y2="-6.1" width="0.12" layer="21"/>
+<wire x1="6.1" y1="-6.1" x2="5.144" y2="-6.1" width="0.12" layer="21"/>
+<wire x1="-6.1" y1="-5.144" x2="-6.1" y2="-6.1" width="0.12" layer="21"/>
+<wire x1="-6.1" y1="-6.1" x2="-5.144" y2="-6.1" width="0.12" layer="21"/>
+<wire x1="6.1" y1="-6.1" x2="-6.1" y2="-6.1" width="0.12" layer="51"/>
+<wire x1="-6.1" y1="-6.1" x2="-6.1" y2="6.1" width="0.12" layer="51"/>
+<wire x1="-6.1" y1="6.1" x2="6.1" y2="6.1" width="0.12" layer="51"/>
+<wire x1="6.1" y1="6.1" x2="6.1" y2="-6.1" width="0.12" layer="51"/>
+<smd name="1" x="-6.6783" y="4.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="2" x="-6.6783" y="4.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="3" x="-6.6783" y="3.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="4" x="-6.6783" y="3.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="5" x="-6.6783" y="2.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="6" x="-6.6783" y="2.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="7" x="-6.6783" y="1.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="8" x="-6.6783" y="1.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="9" x="-6.6783" y="0.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="10" x="-6.6783" y="0.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="11" x="-6.6783" y="-0.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="12" x="-6.6783" y="-0.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="13" x="-6.6783" y="-1.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="14" x="-6.6783" y="-1.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="15" x="-6.6783" y="-2.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="16" x="-6.6783" y="-2.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="17" x="-6.6783" y="-3.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="18" x="-6.6783" y="-3.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="19" x="-6.6783" y="-4.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="20" x="-6.6783" y="-4.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="21" x="-4.75" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="22" x="-4.25" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="23" x="-3.75" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="24" x="-3.25" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="25" x="-2.75" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="26" x="-2.25" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="27" x="-1.75" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="28" x="-1.25" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="29" x="-0.75" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="30" x="-0.25" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="31" x="0.25" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="32" x="0.75" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="33" x="1.25" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="34" x="1.75" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="35" x="2.25" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="36" x="2.75" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="37" x="3.25" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="38" x="3.75" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="39" x="4.25" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="40" x="4.75" y="-6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="41" x="6.6783" y="-4.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="42" x="6.6783" y="-4.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="43" x="6.6783" y="-3.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="44" x="6.6783" y="-3.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="45" x="6.6783" y="-2.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="46" x="6.6783" y="-2.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="47" x="6.6783" y="-1.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="48" x="6.6783" y="-1.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="49" x="6.6783" y="-0.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="50" x="6.6783" y="-0.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="51" x="6.6783" y="0.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="52" x="6.6783" y="0.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="53" x="6.6783" y="1.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="54" x="6.6783" y="1.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="55" x="6.6783" y="2.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="56" x="6.6783" y="2.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="57" x="6.6783" y="3.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="58" x="6.6783" y="3.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="59" x="6.6783" y="4.25" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="60" x="6.6783" y="4.75" dx="1.5588" dy="0.28" layer="1" thermals="no"/>
+<smd name="61" x="4.75" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="62" x="4.25" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="63" x="3.75" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="64" x="3.25" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="65" x="2.75" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="66" x="2.25" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="67" x="1.75" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="68" x="1.25" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="69" x="0.75" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="70" x="0.25" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="71" x="-0.25" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="72" x="-0.75" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="73" x="-1.25" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="74" x="-1.75" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="75" x="-2.25" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="76" x="-2.75" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="77" x="-3.25" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="78" x="-3.75" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="79" x="-4.25" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<smd name="80" x="-4.75" y="6.6783" dx="1.5588" dy="0.28" layer="1" rot="R90" thermals="no"/>
+<text x="0" y="8.0927" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8.0927" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="RESC1608X45" urn="urn:adsk.eagle:package:2906824/2" type="model">
+<description>CHIP, 1.6 X 0.8 X 0.45 mm body
+&lt;p&gt;CHIP package with body size 1.6 X 0.8 X 0.45 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="0603_RK73H"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC5025X70" urn="urn:adsk.eagle:package:2906850/2" type="model">
+<description>CHIP, 5 X 2.5 X 0.7 mm body
+&lt;p&gt;CHIP package with body size 5 X 2.5 X 0.7 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="2010_RK73H"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC6330X70" urn="urn:adsk.eagle:package:2906872/2" type="model">
+<description>CHIP, 6.3 X 3.1 X 0.7 mm body
+&lt;p&gt;CHIP package with body size 6.3 X 3.1 X 0.7 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="2512_RK73H"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC3225X70" urn="urn:adsk.eagle:package:2906847/2" type="model">
+<description>CHIP, 3.2 X 2.6 X 0.7 mm body
+&lt;p&gt;CHIP package with body size 3.2 X 2.6 X 0.7 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="1210_RK73H"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC1005X40" urn="urn:adsk.eagle:package:2906836/2" type="model">
+<description>CHIP, 1.025 X 0.5 X 0.4 mm body
+&lt;p&gt;CHIP package with body size 1.025 X 0.5 X 0.4 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="0402_RK73H"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC2012X60" urn="urn:adsk.eagle:package:2906839/2" type="model">
+<description>CHIP, 2 X 1.25 X 0.6 mm body
+&lt;p&gt;CHIP package with body size 2 X 1.25 X 0.6 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="0805_RK73H"/>
+</packageinstances>
+</package3d>
+<package3d name="QFP50P1400X1400X120-80" urn="urn:adsk.eagle:package:2906742/2" type="model">
+<description>80-QFP, 0.5 mm pitch, 14 mm span, 12 X 12 X 1.2 mm body
+&lt;p&gt;80-pin QFP package with 0.5 mm pitch, 14 mm lead span1 X 14 mm lead span2 with body size 12 X 12 X 1.2 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="80_TQFP_MAXIM"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC3216X70" urn="urn:adsk.eagle:package:2906843/2" type="model">
+<description>CHIP, 3.2 X 1.6 X 0.7 mm body
+&lt;p&gt;CHIP package with body size 3.2 X 1.6 X 0.7 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="1206_RK73H"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+</symbols>
+<devicesets>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
